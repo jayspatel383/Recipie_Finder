@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* Left: brand + primary nav */}
+      
       <div className="navbar-left">
         <Link to="/" className="navbar-brand">
           Recipe Finder
@@ -48,7 +48,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Right: user area */}
+    
       <div className="navbar-right">
         {user ? (
           <>

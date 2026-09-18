@@ -1,9 +1,6 @@
-/* =========================================================
-   Recipe Finder — Fresh Mint Theme
-   ========================================================= */
 
-/* ── Navbar ───────────────────────────────────────────── */
-/* ── Navbar (updated layout) ─────────────────────────── */
+/*  Navbar  */
+
 .navbar {
   width: 100%;
   box-sizing: border-box;
@@ -40,7 +37,7 @@
   gap: 6px;
 }
 
-/* ── Brand ───────────────────────────────────────────── */
+/*  Brand  */
 .navbar-brand {
   text-decoration: none;
   font-weight: 700;
@@ -68,7 +65,7 @@
   color: var(--primary);
 }
 
-/* ── Nav links ───────────────────────────────────────── */
+/*  Nav links  */
 .navbar-link {
   text-decoration: none;
   color: var(--text-h);
@@ -99,7 +96,7 @@
   font-size: 13px;
 }
 
-/* ── User area ───────────────────────────────────────── */
+/*  User area  */
 .navbar-user {
   font-size: 14px;
   color: var(--text-muted);
@@ -111,7 +108,7 @@
   border-left: 1px solid var(--border);
 }
 
-/* ── Buttons ─────────────────────────────────────────── */
+/*  Buttons  */
 .navbar-btn {
   padding: 8px 18px;
   font-size: 14px;
@@ -147,7 +144,7 @@
   border-color: var(--border-strong);
 }
 
-/* ── Responsive ──────────────────────────────────────── */
+/*  Responsive  */
 @media (max-width: 720px) {
   .navbar {
     padding: 12px 20px;
@@ -159,7 +156,7 @@
   }
 
   .navbar-user {
-    display: none; /* hide email on small screens */
+    display: none; 
   }
 
   .navbar-nav {
@@ -181,7 +178,7 @@
     padding: 6px 8px;
   }
 }
-/* ── Page title (Home) ────────────────────────────────── */
+/*  Page title (Home)  */
 .home-title {
   text-align: center;
   font-size: 46px;
@@ -198,7 +195,7 @@
   padding: 0 20px;
 }
 
-/* ── Search bar ───────────────────────────────────────── */
+/*  Search bar  */
 .search-bar {
   display: flex;
   justify-content: center;
@@ -255,7 +252,7 @@
   transform: scale(0.97);
 }
 
-/* ── Recipe grid ──────────────────────────────────────── */
+/*  Recipe grid  */
 .recipe-container {
   width: 100%;
   box-sizing: border-box;
@@ -267,7 +264,7 @@
   margin: 0 auto;
 }
 
-/* ── Recipe cards ─────────────────────────────────────── */
+/*  Recipe cards  */
 .recipe-card {
   background-color: var(--bg-elevated);
   border-radius: var(--radius);
@@ -322,7 +319,7 @@
   color: #ffffff;
 }
 
-/* ── Recipe details page ──────────────────────────────── */
+/*  Recipe details page  */
 .recipe-details {
   width: 100%;
   max-width: 900px;
@@ -368,7 +365,7 @@
   color: var(--primary);
 }
 
-/* ── Responsive tweaks ────────────────────────────────── */
+/*  Responsive tweaks  */
 @media (max-width: 640px) {
   .navbar {
     padding: 14px 20px;
@@ -411,7 +408,7 @@
 
 
 
-/* ── Auth pages ───────────────────────────────────────── */
+/*  Auth pages  */
 .auth-page {
   display: flex;
   justify-content: center;
@@ -523,7 +520,7 @@
   }
 }
 
-/* ── Favorite button ─────────────────────────────────── */
+/*  Favorite button  */
 .recipe-image-wrap {
   position: relative;
 }
@@ -561,7 +558,7 @@
   cursor: not-allowed;
 }
 
-/* ── Favorites page ──────────────────────────────────── */
+/*  Favorites page  */
 .favorites-page {
   padding-bottom: 60px;
 }

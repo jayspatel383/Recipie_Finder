@@ -1,5 +1,5 @@
 :root {
-  /* ── Fresh Mint Palette — Light ─────────────────────── */
+  
   --primary: #10b981;
   --primary-hover: #059669;
   --primary-soft: rgba(16, 185, 129, 0.12);
@@ -8,16 +8,15 @@
   --accent-soft: rgba(251, 113, 133, 0.12);
 
   --bg: #f9fafb;
-  --bg-elevated: #ffffff;     /* cards, navbar */
-  --bg-subtle: #f3f4f6;       /* hover backgrounds */
+  --bg-elevated: #ffffff;     
+  --bg-subtle: #f3f4f6;       
 
   --border: #e5e7eb;
   --border-strong: #d1d5db;
 
-  --text: #4b5563;            /* body */
-  --text-h: #111827;          /* headings */
-  --text-muted: #6b7280;      /* meta info */
-
+  --text: #4b5563;            
+  --text-h: #111827;          
+  --text-muted: #6b7280;      
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 12px 28px rgba(16, 185, 129, 0.15);

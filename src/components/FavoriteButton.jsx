@@ -3,13 +3,13 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/useAuth";
 import {
-    addFavorite,
-    isFavorited,
-    removeFavorite,
+  addFavorite,
+  isFavorited,
+  removeFavorite,
 } from "../services/favoritesApi";
 
 function FavoriteButton({ recipe }) {
-  // Normalize — works with Spoonacular (id/title/image) AND TheMealDB (idMeal/strMeal/strMealThumb)
+ 
   const recipeId = recipe.idMeal ?? recipe.id;
   const recipeTitle = recipe.strMeal ?? recipe.title;
   const recipeImage = recipe.strMealThumb ?? recipe.image;
